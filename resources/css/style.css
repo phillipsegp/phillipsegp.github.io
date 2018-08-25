@@ -1,0 +1,120 @@
+html {
+  font-family: "Roboto Mono", serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  height: 9vh;
+  align-items: center;
+  background-color: #282828;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  font-size: 2.3vh;
+}
+
+/* Landing */
+
+.landing-section {
+  display: flex;
+  justify-content: center;
+  height: 91vh;
+  background-image: url("../images/essay.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+}
+
+.landing {
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  justify-content: center;
+}
+
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  font-size: 6vh;
+  margin: auto 3vw;
+  background-color: rgba(34, 56, 220, 0.7);
+  padding: 2vh;
+  color: white;
+}
+
+#one {
+  margin-bottom: 25vh;
+}
+
+#three {
+  margin-top: 25vh;
+}
+
+.information {
+  display: flex;
+  font-size: 4vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.information h2 {
+  background-color: rgba(35, 137, 74, 0.7);
+  padding: 1.5vh;
+  margin: 2vh auto;
+  color: white;
+}
+
+/* News */
+
+.news-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10vh;
+}
+
+.news-section-title {
+  font-size: 5vh;
+  margin-bottom: 3vh;
+}
+
+.newss {
+  display: flex;
+  flex-direction: column;
+}
+
+.news {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #282828;
+  color: white;
+  flex-direction: column;
+  padding: 2vh;
+  border-radius: 5px;
+}
+
+.news-title {
+  text-align: left;
+  font-size: 3.5vh;
+  margin-bottom: 2vh;
+}

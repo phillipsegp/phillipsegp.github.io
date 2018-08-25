@@ -1,0 +1,101 @@
+
+/* Landing */
+
+.landing-section {
+  display: flex;
+  justify-content: center;
+  height: 25vh;
+  align-items: center;
+  background-color: #B83737;
+}
+
+.jumbotron {
+  display: flex;
+  font-size: 5vh;
+  color: white;
+}
+
+/* Page */
+
+.page {
+  display: flex;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  justify-content: center;
+}
+
+.sections {
+  display: flex;
+  flex-direction: row;
+}
+
+.sections:last-child {
+  font-size: 2.3vh;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  background-color: #C9C9C9;
+  color: black;
+  padding: 4vh 2vw 4vh 2vw;
+}
+
+.section:first-child {
+  border-right: 0.3vh solid white;
+}
+
+.section:last-child {
+  border-left: 0.3vh solid white;
+}
+
+.section-title {
+  font-size: 3.5vh;
+  margin-bottom: 3vh;
+}
+
+td {
+  padding: 1vh;
+  border: 0.3vh solid black;
+}
+
+.section-content h1 {
+  font-size: 3vh;
+  margin-bottom: 2vh;
+  margin-top: 5vh;
+}
+
+.section-content h1:first-child {
+  margin-top: 2vh;
+}
+
+.section-content h2 {
+  margin-top: 2vh;
+}
+
+.section-content ul {
+  list-style: disc;
+}
+
+.section-content li {
+  margin-top: 2vh;
+}
+
+.section-content #img {
+  text-align: center;
+}
+
+.section-content:last-child {
+  font-size: 2.5vh;
+}
+
+.section-content strong {
+  font-weight: bold;
+  font-size: 3vh;
+  color: maroon;
+}
+
+.sections:last-child {
+  margin-top: 0;
+}
