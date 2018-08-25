@@ -39,7 +39,8 @@
   width: 40vw;
   background-color: #C9C9C9;
   color: black;
-  padding: 4vh 2vw 4vh 2vw;
+  padding: 4vh;
+  margin: 2vh;
 }
 
 .section:first-child {
@@ -93,10 +94,10 @@ td {
 }
 
 .section-content img {
-  width: 25vw;
+  width: 20vw;
 }
 
-.section-content:last-child {
+.section:last-child {
   font-size: 2.5vh;
 }
 
@@ -104,8 +105,4 @@ td {
   font-weight: bold;
   font-size: 3vh;
   color: maroon;
-}
-
-.sections:last-child {
-  margin-top: 0;
 }
