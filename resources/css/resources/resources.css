@@ -128,9 +128,13 @@
 }
 
 .link-content {
-  height: 4vh;
+  height: 6vh;
 }
 
 .link a:hover {
   background-color: rgba(255, 255, 255, 0.2);
+}
+
+.link-section {
+  margin-bottom: 10vh;
 }

@@ -1,0 +1,66 @@
+header a {
+  font-size: 2vh;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron {
+  text-align: center;
+  font-size: 4.5vh;
+}
+
+.downloads {
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+}
+
+.download {
+  flex-direction: column;
+  width: 37vw;
+}
+
+.download-content {
+  height: 10vh;
+  margin-bottom: 3vh;
+}
+
+.download-title {
+  height: 8vh;
+}
+
+.download-img {
+  height: 43vh;
+}
+
+.download a {
+  width: 35vw;
+  margin-bottom: 3vh;
+}
+
+.download img {
+  height: 35vh;
+}
+
+.link-content {
+  height: 8vh;
+}
+
+.link-title {
+  height: 6vh;
+}
+
+.link {
+  width: 35vw;
+}
+
+.link-title {
+  height: 15vh;
+}
+
+footer {
+  flex-direction: column;
+  height: 15vh;
+}

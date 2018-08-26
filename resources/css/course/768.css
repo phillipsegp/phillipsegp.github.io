@@ -1,0 +1,25 @@
+footer {
+  flex-direction: column;
+  height: 15vh;
+}
+
+header a {
+  font-size: 2vh;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron {
+  text-align: center;
+  font-size: 4.5vh;
+}
+
+.sections {
+  flex-direction: column;
+}
+
+.section {
+  width: 70vw;
+}

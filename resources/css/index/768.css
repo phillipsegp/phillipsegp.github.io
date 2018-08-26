@@ -1,0 +1,46 @@
+header a {
+  font-size: 2vh;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing {
+  flex-direction: column;
+}
+
+#one,
+#two,
+#three {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  justify-content: center;
+  text-align: center;
+  border: 0.5vh solid transparent;
+  margin: 0;
+}
+
+
+.news-section-title {
+  justify-content: center;
+  text-align: center;
+}
+
+.newss {
+  width: 70vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-title {
+  text-align: center;
+}
+
+footer {
+  flex-direction: column;
+  height: 13vh;
+}
