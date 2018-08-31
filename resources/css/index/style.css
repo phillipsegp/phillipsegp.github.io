@@ -54,7 +54,8 @@
 
 /* News */
 
-.news-section {
+.news-section,
+.homework-section {
   display: flex;
   justify-content: center;
   margin-top: 10vh;
@@ -63,17 +64,20 @@
   margin-bottom: 10vh;
 }
 
-.news-section-title {
+.news-section-title,
+.homework-title {
   font-size: 5vh;
   margin-bottom: 3vh;
 }
 
-.newss {
+.newss,
+.homework-assignments {
   display: flex;
   flex-direction: column;
 }
 
-.news {
+.news,
+.homework-assignment {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -82,12 +86,24 @@
   flex-direction: column;
   padding: 2vh;
   border-radius: 5px;
+  max-width: 60vw;
+  margin: 2vh auto;
 }
 
-.news-title {
+.news-title,
+.assign-title {
   text-align: left;
   font-size: 3.5vh;
   margin-bottom: 2vh;
+}
+
+.assign-content {
+  margin: 2vh auto;
+}
+
+.assign-date {
+  color: red;
+  font-size: 2.5vh;
 }
 
 /* Contact */

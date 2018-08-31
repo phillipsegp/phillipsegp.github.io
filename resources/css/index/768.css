@@ -25,12 +25,14 @@ header a {
 }
 
 
-.news-section-title {
+.news-section-title,
+.homework-title {
   justify-content: center;
   text-align: center;
 }
 
-.newss {
+.newss,
+.homework-assignments {
   width: 70vw;
   justify-content: center;
   align-items: center;
