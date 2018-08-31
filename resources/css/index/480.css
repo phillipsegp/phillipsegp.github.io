@@ -26,7 +26,8 @@ header a {
 
 
 .news-section-title,
-.homework-title {
+.homework-title,
+.assign-title {
   justify-content: center;
   text-align: center;
 }
